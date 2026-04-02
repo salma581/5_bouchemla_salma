@@ -2,7 +2,6 @@
 <html lang="fr">
   <head>
     <title>Kanap</title>
-
     <meta charset="utf-8">
     <meta name="description" content="Plateforme incroyable de e-commerce">
 
@@ -10,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet" />
-
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -34,7 +32,7 @@
           <nav>
             <ul>
               <a href="./index.html"><li>Accueil</li></a>
-              <a href="./cart.html"><li>Panier</li></a>
+              <a href="html/cart.html"><li>Panier</li></a>
             </ul>
           </nav>
         </div>
@@ -48,15 +46,8 @@
           <h1>Nos produits</h1>
           <h2>Une gamme d'articles exclusifs</h2>
         </div>
-        <section class="items" id="items"> 
-         <!-- <a href="./product.html?id=42"> 
-             <article>
-              <img src=".../product01.jpg" alt="Lorem ipsum dolor sit amet, Kanap name1">
-              <h3 class="productName">Kanap name1</h3>
-              <p class="productDescription">Dis enim malesuada risus sapien gravida nulla nisl arcu. Dis enim malesuada risus sapien gravida nulla nisl arcu.</p>
-            </article> 
-          </a>  -->
-        </section>
+        <!-- Container vide pour les produits, le JS va injecter les liens et articles -->
+        <section class="items" id="items"></section>
       </div>
     </main>
     
@@ -83,6 +74,8 @@
         </div>
       </div>
     </footer>
-  <script src="./js/script.js"></script>
+
+    <!-- Script qui injecte les produits avec le lien correct -->
+    <script src="./js/script.js"></script>
   </body>
 </html>
